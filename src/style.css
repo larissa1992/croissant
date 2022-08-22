@@ -1,26 +1,30 @@
 body {
-  background-color: rgb(49, 42, 27);
-  color: white;
-  display: block;
+  background-color: bisque;
+  color: black;
 }
 h1 {
   text-align: center;
 }
 a {
-  color: rgb(255, 255, 255);
+  color: black;
+  text-align: center;
   opacity: 100px;
   text-decoration: none;
-  text-align: center;
-  display: block;
   font-size: 20px;
 }
 footer {
-  display: flex;
-  justify-content: space-evenly;
+  text-align: center;
   margin-top: 50px;
   font-size: 20px;
 }
-
+footer a {
+  margin: 0 10px;
+  text-align: center;
+}
+.mail {
+  display: block;
+  text-align: center;
+}
 .croissant-image {
   width: 500;
   height: 500px;
